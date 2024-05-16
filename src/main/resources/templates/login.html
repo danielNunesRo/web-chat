@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+    <div>
+        <h2>Insira seu nome</h2>
+        <form id="loginForm" action="/chat" method="get">
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required />
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
